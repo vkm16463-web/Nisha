@@ -12,7 +12,7 @@ SPAM_CHATS = []
 
 @app.on_message(
     filters.command(
-        ["atag", "aall", "amention", "amentionall"], prefixes=["/", "@", ".", "#"]
+        ["abittag", "aaboyll", "amenbkgjtion", "amenbkihbtionall"], prefixes=["/", "@", ".", "#"]
     )
     & admin_filter
 )
